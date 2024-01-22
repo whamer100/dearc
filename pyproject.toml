@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dearc"
+version = "0.1.0"
+description = "Extract data from arc system works' DGKP format. (wip)"
+authors = ["whamer100 <whamer100@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+readma = "^1.0.2a0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
